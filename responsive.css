@@ -591,16 +591,25 @@
 
 
 @media (max-width: 455px) {
+
+    .page3 .page3-up{
+        /* background-color: red; */
+    }
+
     .page3 .page3-up h1{
-        font-size: 6.5vw;
+        font-size: 10vw;
+        margin-bottom: 5vw;
     }
 
     .page3 .page3-up h2 {
-        font-size: 3.8vw;
+        font-size: 4.5vw;
+        text-align: center;
+        margin-bottom: 5vw;
     }
 
     .page3 .page3-up i{
-        font-size: 4.9vw;
+        font-size: 5.5vw;
+        margin-bottom: 5vw;
     }
 
     .page3 .page3-down {
@@ -609,6 +618,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-color: #fafcff;
     }
 
     .page3 .page3-down .down-contents{
@@ -630,12 +640,7 @@
 
 
 
-/* page4-section responsive */
-
-
-
-
-/* page2-section responsive */
+/* page3-section responsive */
 
 @media screen and (min-width: 763px) and (max-width: 1024px){
     .page3-section {
@@ -654,6 +659,7 @@
 
     .page3-section .page3-sec-up h1 {
         font-size: 6vw;
+        margin-left: 5vw;
     }
 
     .page3-section .page3-sec-down {
@@ -746,9 +752,6 @@
 
 
 
-
-
-
 /* page4 responsive */
 
 @media screen and (min-width: 763px) and (max-width: 1024px){
@@ -763,6 +766,10 @@
         margin-top: 10vw;
     }
 
+    .page4 .page4-middle{
+        padding: 1vw;
+    }
+
     .page4 .page4-middle h1{
         font-size: 4vw;
         text-align: center;
@@ -773,20 +780,21 @@
     }
 
     .page4 .page4-middle h2 {
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .page4 .page4-down {
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 1vw;
     }
 
     .page4 .page4-down .down-content {
-        width: 95%;
+        width: 98%;
+        padding: 2.5vw;
     }
 
     .page4 .page4-down .down-content h1{
         font-size: 4vw;
+        text-align: center;
     }
 
     .page4 .page4-down .down-content span {
@@ -795,7 +803,7 @@
 
     .page4 .page4-down .down-content h2 {
         font-size: 2.7vw;
-        line-height: 4.5vw;
+        line-height: 4.8vw;
         margin-top: 3vw;
     }
 }
@@ -818,6 +826,10 @@
         margin-top: 15vw;
     }
 
+    .page4 .page4-middle{
+        padding: 2vw;
+    }
+
     .page4 .page4-middle h1{
         font-size: 5.9vw;
         text-align: center;
@@ -828,7 +840,9 @@
     }
 
     .page4 .page4-middle h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
+        font-weight: 500;
+        margin-top: 2vw;
     }
 
     .page4 .page4-down {
@@ -841,20 +855,23 @@
 
     .page4 .page4-down .down-content {
         width: 100%;
+        padding: 9vw;
+    
     }
 
     .page4 .page4-down .down-content h1{
         font-size: 6vw;
+        text-align: center;
     }
 
     .page4 .page4-down .down-content span {
-        font-size: 9vw;
+        font-size: 12vw;
     }
 
     .page4 .page4-down .down-content h2 {
-        font-size: 4.5vw;
+        font-size: 4.1vw;
         line-height: 9vw;
-        margin-top: 8vw;
+        margin-top: 5vw;
     }
 
 }
